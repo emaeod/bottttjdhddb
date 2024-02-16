@@ -1,5 +1,5 @@
 module.exports = {
-  OWNER_IDS: [""], // Bot owner ID's
+  OWNER_IDS: ["1193634767137149059"], // Bot owner ID's
   SUPPORT_SERVER: "", // Your bot support server
   PREFIX_COMMANDS: {
     ENABLED: true, // Enable/Disable prefix commands
@@ -36,10 +36,10 @@ module.exports = {
   },
 
   DASHBOARD: {
-    enabled: false, // enable or disable dashboard
-    baseURL: "http://localhost:8080", // base url
-    failureURL: "http://localhost:8080", // failure redirect url
-    port: "8080", // port to run the bot on
+    enabled: true, // enable or disable dashboard
+    baseURL: "0.0.0.0:10000", // base url
+    failureURL: "0.0.0.0:10000", // failure redirect url
+    port: "10000", // port to run the bot on
   },
 
   ECONOMY: {
@@ -59,8 +59,8 @@ module.exports = {
     // Refer to https://github.com/freyacodes/Lavalink to host your own lavalink server
     LAVALINK_NODES: [
       {
-        host: "localhost",
-        port: 2333,
+        host: "0.0.0.0",
+        port: 10000,
         password: "youshallnotpass",
         id: "Local Node",
         secure: false,
