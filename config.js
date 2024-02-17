@@ -1,6 +1,6 @@
 module.exports = {
   OWNER_IDS: ["1193634767137149059"], // Bot owner ID's
-  SUPPORT_SERVER: "", // Your bot support server
+  SUPPORT_SERVER: "https://www.discord.gg/9YP76AwhZV", // Your bot support server
   PREFIX_COMMANDS: {
     ENABLED: true, // Enable/Disable prefix commands
     DEFAULT_PREFIX: "!", // Default prefix for the bot
@@ -37,8 +37,8 @@ module.exports = {
 
   DASHBOARD: {
     enabled: true, // enable or disable dashboard
-    baseURL: "0.0.0.0:8080", // base url
-    failureURL: "0.0.0.0:8080", // failure redirect url
+    baseURL: "https://ydheueuehshdd7281.onrender.com/:10000", // base url
+    failureURL: "https://ydheueuehshdd7281.onrender.com/:10000", // failure redirect url
     port: "10000", // port to run the bot on
   },
 
