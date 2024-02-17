@@ -37,8 +37,8 @@ module.exports = {
 
   DASHBOARD: {
     enabled: true, // enable or disable dashboard
-    baseURL: "https://discord.com/oauth2/authorize?client_id=1208067384317976617&response_type=code&redirect_uri=https%3A%2F%2Fydheueuehshdd7281.onrender.com%2Fapi%2Fcallback&scope=guilds:10000", // base url
-    failureURL: "https://discord.com/oauth2/authorize?client_id=1208067384317976617&response_type=code&redirect_uri=https%3A%2F%2Fydheueuehshdd7281.onrender.com%2Fapi%2Fcallback&scope=guilds:10000", // failure redirect url
+    baseURL: "https://ydheueuehshdd7281.onrender.com/api/callback:10000", // base url
+    failureURL: "https://ydheueuehshdd7281.onrender.com/api/callback:10000", // failure redirect url
     port: "10000", // port to run the bot on
   },
 
