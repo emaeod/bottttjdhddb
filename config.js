@@ -37,9 +37,9 @@ module.exports = {
 
   DASHBOARD: {
     enabled: true, // enable or disable dashboard
-    baseURL: "https://ydheueuehshdd7281.onrender.com/:10000", // base url
-    failureURL: "https://ydheueuehshdd7281.onrender.com/:10000", // failure redirect url
-    port: "10000", // port to run the bot on
+    baseURL: "https://ydheueuehshdd7281.onrender.com/:80", // base url
+    failureURL: "https://ydheueuehshdd7281.onrender.com/:80", // failure redirect url
+    port: "80", // port to run the bot on
   },
 
   ECONOMY: {
@@ -51,7 +51,7 @@ module.exports = {
   },
 
   MUSIC: {
-    ENABLED: false,
+    ENABLED: true,
     IDLE_TIME: 60, // Time in seconds before the bot disconnects from an idle voice channel
     MAX_SEARCH_RESULTS: 5,
     DEFAULT_SOURCE: "SC", // YT = Youtube, YTM = Youtube Music, SC = SoundCloud
