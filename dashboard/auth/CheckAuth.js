@@ -3,7 +3,7 @@ module.exports = async (req, res, next) => {
     const redirectURL = req.originalUrl.includes("login") || req.originalUrl === "/" ? "/selector" : req.originalUrl;
     const state = Math.random().toString(36).substring(5);
     req.client.states[state] = redirectURL;
-    return res.redirect(`https://ydheueuehshdd7281.onrender.com`);
+    return res.redirect(`https://discord.com/oauth2/authorize?client_id=1208067384317976617&response_type=code&redirect_uri=https%3A%2F%2Fydheueuehshdd7281.onrender.com%2Fapi%2Fcallback&scope=guilds`);
   }
   return next();
 };
