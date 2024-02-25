@@ -1,5 +1,5 @@
 module.exports = {
-  OWNER_IDS: ["1193634767137149059"], // Bot owner ID's
+  OWNER_IDS: ["935880920957874267"], // Bot owner ID's
   SUPPORT_SERVER: "https://www.discord.gg/9YP76AwhZV", // Your bot support server
   PREFIX_COMMANDS: {
     ENABLED: true, // Enable/Disable prefix commands
@@ -37,8 +37,8 @@ module.exports = {
 
   DASHBOARD: {
     enabled: true, // enable or disable dashboard
-    baseURL: "https://ydheueuehshdd7281.onrender.com", // base url
-    failureURL: "https://ydheueuehshdd7281.onrender.com/api/auth/callback/discord", // failure redirect url
+    baseURL: "https://buqebotsystempro.onrender.com", // base url
+    failureURL: "https://buqebotsystempro.onrender.com/api/auth/callback/discord", // failure redirect url
     port: "80", // port to run the bot on
   },
 
@@ -106,13 +106,13 @@ module.exports = {
     ENABLED: true, // Whether or not the bot should update its status
     STATUS: "online", // The bot's status [online, idle, dnd, invisible]
     TYPE: "WATCHING", // Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
-    MESSAGE: "{members} members in ViTK", // Your bot status message
+    MESSAGE: "{members} عدد اعضائنا", // Your bot status message
   },
 
   STATS: {
     ENABLED: true,
     XP_COOLDOWN: 5, // Cooldown in seconds between messages
-    DEFAULT_LVL_UP_MSG: "{member:tag}, You just advanced to **Level {level}**",
+    DEFAULT_LVL_UP_MSG: "{member:tag},**Level {level}**",
   },
 
   SUGGESTIONS: {
