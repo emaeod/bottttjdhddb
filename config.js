@@ -51,7 +51,7 @@ module.exports = {
   },
 
   MUSIC: {
-    ENABLED: false,
+    ENABLED: true,
     IDLE_TIME: 60, // Time in seconds before the bot disconnects from an idle voice channel
     MAX_SEARCH_RESULTS: 5,
     DEFAULT_SOURCE: "SC", // YT = Youtube, YTM = Youtube Music, SC = SoundCloud
@@ -59,11 +59,11 @@ module.exports = {
     // Refer to https://github.com/freyacodes/Lavalink to host your own lavalink server
     LAVALINK_NODES: [
       {
-        host: "node01.marshalxp.xyz",
-        port: 443,
-        password: "marshal",
-        id: "Node Local",
-        secure: true,
+        host: "us1.lavalink.creavite.co",
+        port: 20080,
+        password: "auto.creavite.co",
+        id: "217993049802801152",
+        secure: false,
       },
     ],
   },
@@ -112,8 +112,7 @@ module.exports = {
   STATS: {
     ENABLED: true,
     XP_COOLDOWN: 5, // Cooldown in seconds between messages
-    DEFAULT_LVL_UP_MSG: "# مستواك ارتفع <:panda:1210715361876639875>
-يا مستواك ارتفع يا {member:tag} ** الى مستوى {level}** !!",
+    DEFAULT_LVL_UP_MSG: "** مستواك ارتفع** <:panda:1210715361876639875> يا {member:tag}** الى مستوى {level}** !!",
   },
 
   SUGGESTIONS: {
