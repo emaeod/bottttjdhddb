@@ -51,7 +51,7 @@ module.exports = {
   },
 
   MUSIC: {
-    ENABLED: true,
+    ENABLED: false,
     IDLE_TIME: 60, // Time in seconds before the bot disconnects from an idle voice channel
     MAX_SEARCH_RESULTS: 5,
     DEFAULT_SOURCE: "SC", // YT = Youtube, YTM = Youtube Music, SC = SoundCloud
@@ -81,7 +81,7 @@ module.exports = {
   },
 
   INVITE: {
-    ENABLED: false,
+    ENABLED: true,
   },
 
   MODERATION: {
@@ -112,7 +112,8 @@ module.exports = {
   STATS: {
     ENABLED: true,
     XP_COOLDOWN: 5, // Cooldown in seconds between messages
-    DEFAULT_LVL_UP_MSG: "{member:tag},**Level {level}**",
+    DEFAULT_LVL_UP_MSG: "# مستواك ارتفع <:panda:1210715361876639875>
+يا مستواك ارتفع يا {member:tag} ** الى مستوى {level}** !!",
   },
 
   SUGGESTIONS: {
