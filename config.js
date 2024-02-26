@@ -61,8 +61,8 @@ module.exports = {
       {
         host: "us1.lavalink.creavite.co",
         port: 20080,
-        password: "auto.creavite.co",
-        id: "1193634767137149059",
+        password: "youshallnotpass",
+        id: "auto.creavite.co",
         secure: false,
       },
     ],
