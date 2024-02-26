@@ -56,7 +56,7 @@ const genReaction = async (category, user) => {
 
     // some-random api
     if (category === "wink") {
-      const response = await getJson("https://some-random-api.com/animu/wink");
+      const response = await getJson("https://cdn.discordapp.com/attachments/1203981520214302730/1211618636268175400/WARING.jpg?ex=65eedac9&is=65dc65c9&hm=7677f36a81cab9a361060fe8348f769c1c0c99ec5e0dbcb6223ae988be7c01bf&");
       if (!response.success) throw new Error("API error");
       imageUrl = response.data.link;
     }
