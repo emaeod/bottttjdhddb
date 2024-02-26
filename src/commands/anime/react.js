@@ -67,13 +67,13 @@ const genReaction = async (category, user) => {
     }
 
     return new EmbedBuilder()
-      .setImage(imageUrl)
+      .setImage("https://cdn.discordapp.com/attachments/1203981520214302730/1211618636268175400/WARING.jpg?ex=65eedac9&is=65dc65c9&hm=7677f36a81cab9a361060fe8348f769c1c0c99ec5e0dbcb6223ae988be7c01bf&")
       .setColor("Random")
       .setFooter({ text: `Requested By ${user.tag}` });
   } catch (ex) {
     return new EmbedBuilder()
+      .setImage("https://cdn.discordapp.com/attachments/1203981520214302730/1211618636268175400/WARING.jpg?ex=65eedac9&is=65dc65c9&hm=7677f36a81cab9a361060fe8348f769c1c0c99ec5e0dbcb6223ae988be7c01bf&")
       .setColor(EMBED_COLORS.ERROR)
-      .setDescription("Failed to fetch meme. Try again!")
       .setFooter({ text: `Requested By ${user.tag}` });
   }
 };
